@@ -20,6 +20,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/vanir_i9300.mk \
     $(LOCAL_DIR)/vanir_i9305.mk \
     $(LOCAL_DIR)/vanir_jewel.mk \
+    $(LOCAL_DIR)/vanir_m4.mk \
     $(LOCAL_DIR)/vanir_m7att.mk \
     $(LOCAL_DIR)/vanir_m7spr.mk \
     $(LOCAL_DIR)/vanir_m7tmo.mk \
