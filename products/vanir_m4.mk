@@ -7,7 +7,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Boot Animation
 PRODUCT_COPY_FILES += \
-    vendor/vanir/proprietary/boot_animations/1080x1920.zip:system/media/bootanimation.zip
+    vendor/vanir/proprietary/boot_animations/720x1280.zip:system/media/bootanimation.zip
 
 # Inherit common vanir files.
 $(call inherit-product, vendor/vanir/products/gsm.mk)
