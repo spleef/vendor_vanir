@@ -1,5 +1,5 @@
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.goo.rom=vanir-shamu
+    ro.goo.rom=vanir-trltespr
 
 # Boot Animation
 PRODUCT_COPY_FILES += \
@@ -10,6 +10,10 @@ $(call inherit-product, vendor/vanir/products/common_phones.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/vanir/config/nfc_enhanced.mk)
+
+# APNs
+PRODUCT_COPY_FILES +=  \
+	vendor/vanir/proprietary/cdma/etc/apns-conf-cdma.xml:system/etc/apns-conf.xml
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/trltespr/cm.mk)
